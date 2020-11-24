@@ -2,6 +2,8 @@ import UIKit
 
 let numbers = [6, 1, 9, 5, 13, 6, 99, 19, 58, 0]
 
+// Worst: O(n^2)
+// ascending
 func selectionSort(_ numbers: [Int]) -> [Int] {
     var minIndex = 0
     var processedNumbers = numbers
