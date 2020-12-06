@@ -1,5 +1,7 @@
 import UIKit
 
+// Reference: https://www.youtube.com/watch?v=oSWTXtMglKE
+
 class Node {
     var leftNode: Node? = nil
     var rightNode: Node? = nil
