@@ -32,17 +32,16 @@ class Solution {
 // Time: O(n) | Space: O(n)
 
 class Solution2 {
-    func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+    func twoSum(_ numbers: [Int], _ target: Int) -> [Int] {
         var hashTable: [Int: Int] = [:]
         
-        for i in 0..<nums.count {
-            let complement = target - nums[i]
-            if let index = hashTable[complement] {
-                return [i, index]
+        for (index, number) in numbers.enumerated() {
+            let complementNumber = target - number
+            if let complementIndex = hashTable[complementNumber] {
+                return [index, complementIndex]
             } else {
-                hashTable[nums[i]] = i
+                hashTable[number] = index
             }
-            
         }
         return []
     }
