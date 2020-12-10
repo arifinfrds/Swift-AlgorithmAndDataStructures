@@ -2,6 +2,7 @@ import UIKit
 
 let input = "arifin"
 
+
 // Complexity: O(1)
 
 class Program {
@@ -13,12 +14,14 @@ class Program {
 print(Program().reverse(string: input))
 
 
+// Time: O(n) | Space: O(n)
+
 class Program2 {
     func reverse(string: String) -> String {
         var tempChars: [Character] = []
+        let chars = Array(string)
         
         for i in (0..<string.count).reversed() {
-            let chars = Array(string)
             tempChars.append(chars[i])
         }
         return String(tempChars)
@@ -28,12 +31,14 @@ class Program2 {
 print(Program2().reverse(string: input))
 
 
+// Time: O(n) | Space: O(n)
+
 class Program3 {
     func reverse(string: String) -> String {
         var tempChars = ""
+        let chars = Array(string)
         
         for i in (0..<string.count).reversed() {
-            let chars = Array(string)
             tempChars.append(chars[i])
         }
         
