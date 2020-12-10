@@ -23,3 +23,19 @@ class Solution {
 
 print(Solution().containsDuplicate([1,2,3,1]))
 print(Solution().containsDuplicate([3,3]))
+
+
+class Solution2 {
+    func containsDuplicate(_ nums: [Int]) -> Bool {
+        let sortedNumbers = nums.sorted()
+        for i in stride(from: 0, to: sortedNumbers.count, by: 1) {
+            if sortedNumbers[i] == sortedNumbers[i+1] {
+                return true
+            }
+        }
+        return false
+    }
+}
+
+print(Solution2().containsDuplicate([1,2,3,1]))
+print(Solution2().containsDuplicate([3,3]))
