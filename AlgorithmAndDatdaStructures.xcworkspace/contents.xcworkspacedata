@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:MergeSortedArrays.playground">
+   </FileRef>
+   <FileRef
       location = "group:ReverseAString.playground">
    </FileRef>
    <FileRef
