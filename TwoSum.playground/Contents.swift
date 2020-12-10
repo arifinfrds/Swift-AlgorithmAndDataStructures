@@ -23,8 +23,27 @@ class Solution {
     }
 }
 
-print(Solution().twoSum([2,7,11,15], 9))
-print(Solution().twoSum([3,2,4], 6))
-print(Solution().twoSum([3,3], 6))
+//print(Solution().twoSum([2,7,11,15], 9))
+//print(Solution().twoSum([3,2,4], 6))
+//print(Solution().twoSum([3,3], 6))
 
+class Solution2 {
+    func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+        var hashTable: [Int: Int] = [:]
+        
+        for i in 0..<nums.count {
+            let complement = target - nums[i]
+            if let index = hashTable[complement] {
+                return [i, index]
+            } else {
+                hashTable[nums[i]] = i
+            }
+            
+        }
+        return []
+    }
+}
 
+print(Solution2().twoSum([2,7,11,15], 9))
+print(Solution2().twoSum([3,2,4], 6))
+print(Solution2().twoSum([3,3], 6))
