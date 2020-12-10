@@ -9,6 +9,7 @@ import UIKit
  Output: Because nums[0] + nums[1] == 9, we return [0, 1].
  */
 
+// Time: O(n^2) | Space: O(1)
 
 class Solution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
@@ -26,6 +27,9 @@ class Solution {
 //print(Solution().twoSum([2,7,11,15], 9))
 //print(Solution().twoSum([3,2,4], 6))
 //print(Solution().twoSum([3,3], 6))
+
+
+// Time: O(n) | Space: O(n)
 
 class Solution2 {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
