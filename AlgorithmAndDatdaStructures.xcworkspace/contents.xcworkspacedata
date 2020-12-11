@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:MoveZeroes.playground">
+   </FileRef>
+   <FileRef
       location = "group:ContainsDuplicate.playground">
    </FileRef>
    <FileRef

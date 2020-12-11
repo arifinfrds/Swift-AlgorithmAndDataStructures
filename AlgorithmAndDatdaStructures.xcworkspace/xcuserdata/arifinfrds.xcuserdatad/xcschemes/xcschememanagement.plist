@@ -51,7 +51,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>0</integer>
 		</dict>
 		<key>MergeSortedArrays (Playground) 1.xcscheme</key>
 		<dict>
@@ -72,7 +72,28 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>3</integer>
+		</dict>
+		<key>MoveZeroes (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>MoveZeroes (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>MoveZeroes (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>7</integer>
 		</dict>
 		<key>ReverseAString (Playground) 1.xcscheme</key>
 		<dict>
@@ -93,14 +114,14 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>1</integer>
 		</dict>
 		<key>SelectionSort (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 		<key>TwoSum (Playground) 1.xcscheme</key>
 		<dict>
@@ -121,7 +142,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>5</integer>
 		</dict>
 	</dict>
 </dict>
