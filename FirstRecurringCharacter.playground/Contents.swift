@@ -1,5 +1,6 @@
 import UIKit
 
+// https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/learn/lecture/12314712#overview
 
 let array = [2, 5, 1, 2, 3, 5, 1, 2, 4]
 // should return 2
