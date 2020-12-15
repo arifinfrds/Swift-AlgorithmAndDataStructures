@@ -1,5 +1,6 @@
 import UIKit
 
+// Time O(n^2) | Space O(1)
 class Program {
     func insertionSort(_ array: [Int]) -> [Int] {
         var numbers = array
